@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-require_relative "mail_santa_ruby/version"
-
-module MailSantaRuby
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "mail_santa_ruby/client"
+require "mail_santa_ruby/child_wishes"
+require "mail_santa_ruby/version"
